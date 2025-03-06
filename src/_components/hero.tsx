@@ -1,5 +1,5 @@
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
-import CatHero from "./../../public/cat-hero.png"
+import CatHero from "./../../public/cat.png"
 
 import Image from 'next/image'
 
