@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Produtor Pet",
   description: "Encontre os melhores produtos e serviços para o seu pet com qualidade e confiança.",
   icons: {
-    icon: "/about-1.png",
+    icon: "/paw_icon.png",
   },
 };
 
