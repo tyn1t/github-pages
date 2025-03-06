@@ -25,13 +25,13 @@ const testimonials = [
         content: "A socialização é uma das etapas mais importantes no desenvolvimento de um pet. Quando filhote, o animal está mais aberto a novas experiências e estímulos, o que torna o processo de adaptação ao mundo muito mais fácil. Leve seu pet para passeios, apresente-o a novos ambientes, a diferentes sons e, principalmente, a outros animais e pessoas. Isso contribui para o seu comportamento equilibrado.",
         author: "Maria Oliveira",
         role: "Adestradora",
-        img:"/thispersondoesnotexist2.jpg"
+        img:"/thispersondoesnotexist1.jpg"
     },
     {
         content: "A saúde do seu pet depende de cuidados preventivos contínuos. Vacinas são fundamentais para proteger seu amigo contra doenças graves e até fatais. É essencial seguir o calendário de vacinação recomendado pelo veterinário e manter o controle das verminoses e outros cuidados preventivos. Além disso, a realização de check-ups regulares é uma forma de identificar possíveis problemas antes que eles se tornem sérios. Seu pet confia.",
         author: "Carlos Almeida",
         role: "Veterinário",
-        img: "/thispersondoesnotexist3.jpg"
+        img:"/thispersondoesnotexist1.jpg"
     }
 ];
 
