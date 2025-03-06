@@ -9,7 +9,7 @@ export function Hero() {
         <section className="bg-[#2148ca]  text-white relative overflow-hidden">
             <div>
             <Image
-                src={"./hero-dog.webp"}
+                src={"/studio-shot.jpg"}
                 alt='imagem de dog'
                 className='object-cover opacity-60 lg:hidden'
                 fill
