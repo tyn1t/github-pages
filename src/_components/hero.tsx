@@ -10,7 +10,7 @@ export function Hero() {
             <div>
             <Image
                 src={"/studio-shot.jpg"}
-                alt='imagem de dog'
+                alt='imagem de dog error git ajutar help'
                 className='object-cover opacity-60 lg:hidden'
                 fill
                 priority
