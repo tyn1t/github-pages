@@ -1,6 +1,5 @@
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
 import CatHero from "./../../public/cat-hero.png"
-import Dog from "./../../public/bg-hero.png"
 
 import Image from 'next/image'
 
@@ -10,7 +9,7 @@ export function Hero() {
         <section className="bg-[#2148ca]  text-white relative overflow-hidden">
             <div>
             <Image
-                src={Dog}
+                src={"/bg-hero.png"}
                 alt='imagem de dog'
                 className='object-cover opacity-60 lg:hidden'
                 fill
