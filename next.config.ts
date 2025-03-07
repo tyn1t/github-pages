@@ -6,7 +6,8 @@ const nextConfig: NextConfig = {
     unoptimized: true, // ⚠️ Evita erro de otimização no GitHub Pages
   },
   basePath: process.env.NODE_ENV == "production" ? "/Pets-landing-page" : "",
-};
+  experimental: { optimizeCss: true }, // ⚠️ Força exportação do CSS
+}
 
 
 export default nextConfig;
