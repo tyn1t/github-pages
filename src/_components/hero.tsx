@@ -9,10 +9,11 @@ export function Hero() {
         <section className="bg-[#2148ca]  text-white relative overflow-hidden">
             <div>
             <Image
-                src={"/"}
+                src={"/cat.png"}
                 alt='imagem de dogc eroo'
                 className='object-cover opacity-60 lg:hidden'
-                fill
+                width={250}
+                height={200}
                 priority
                 sizes=""
             />
