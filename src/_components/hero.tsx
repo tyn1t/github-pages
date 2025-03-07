@@ -66,6 +66,7 @@ export function Hero() {
                             className='object-contain'
                             fill
                             sizes="(max-width: 768px) 0vw 50vw"
+                            unoptimized
                             />
                     </div>
                 </article>

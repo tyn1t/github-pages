@@ -70,13 +70,9 @@ export function Testimonials () {
                                         <article className="bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
                                             <div className="flex flex-col items-center text-center space-y-4">
                                                 <div className="relative w-24 h-24">
-                                                    <Image 
-                                                        src={item.img}
-                                                        alt={item.author}
-                                                        fill
-                                                        sizes="96px"
-                                                        className="object-cover rounded-full"
-                                                    />
+                                                    <div className="bg-slate-400 p-12 rounded-full">
+
+                                                    </div>
                                                 </div>
                                                 <p className="text-gray-500">{item.content}</p>
 
