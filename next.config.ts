@@ -2,11 +2,11 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export', 
-  // images: {
-  //   unoptimized: true,
-  // },
-  // basePath: "/tyn1t",
-  // assetPrefix: "/Pets-landing-page/",
+  images: {
+    unoptimized: true,
+  },
+  basePath: "/tyn1t",
+  assetPrefix: "/Pets-landing-page/",
 };
 
 
