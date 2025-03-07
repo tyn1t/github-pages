@@ -60,13 +60,12 @@ export function Hero() {
                     
                     <div className="hidden md:block h-full relative">
                         <Image
-                            src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hero-dog.webp`}
-                            alt="Imagem de cachorro"
-                            width={500}
-                            height={300}
-                            priority
-                            unoptimized
-                        />
+                            src={"/hero-dog.webp"}
+                            alt='imagem de dog'
+                            className='object-contain'
+                            fill
+                            sizes="(max-width: 768px) 0vw 50vw"
+                            />
                     </div>
                 </article>
             </div>
