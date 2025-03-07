@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // ⚠️ Evita erro de otimização no GitHub Pages
   },
-  basePath: process.env.NODE_ENV == "production" ? "/Pets-landing-page" : "",
+  basePath: process.env.NODE_ENV == "production" ? "/Pets-landing-page" : "/Pets-landing-page" ,
   experimental: { optimizeCss: true }, // ⚠️ Força exportação do CSS
 }
 
