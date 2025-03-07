@@ -1,14 +1,11 @@
 import type { NextConfig } from "next";
 
-const isProd = process.env.NODE_ENV == "production";
-
 const nextConfig: NextConfig = {
-  output: 'export', 
-  distDir:'docs',
+  output: 'export', // ⚠️ Exportação estática correta
   images: {
-      unoptimized: true,
-    },
-  basePath: isProd ? "/Pets-landing-page" : ""
+    unoptimized: true, // ⚠️ Evita erro de otimização no GitHub Pages
+  },
+  basePath: process.env.NODE_ENV == "production" ? "/Pets-landing-page" : "",
 };
 
 
