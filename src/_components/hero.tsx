@@ -9,7 +9,7 @@ export function Hero() {
         <section className="bg-[#2148ca]  text-white relative overflow-hidden">
             <div>
             <Image
-                src={"/"}
+                src={"/about-1.png"}
                 alt='imagem de dogc eroo'
                 className='object-cover opacity-60 lg:hidden'
                 width={250}
@@ -61,13 +61,13 @@ export function Hero() {
                     
                     <div className="hidden md:block h-full relative">
                         <Image
-                            src={"/hero-dog.webp"}
-                            alt='imagem de dog'
-                            className='object-contain'
+                            src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hero-dog.webp`}
+                            alt="Imagem de dog"
+                            className="object-contain"
                             fill
-                            sizes="(max-width: 768px) 0vw 50vw"
+                            sizes="(max-width: 768px) 0vw, 50vw"
                             unoptimized
-                            />
+                        />
                     </div>
                 </article>
             </div>
