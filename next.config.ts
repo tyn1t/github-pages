@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export', // Exporta como site estático
+  output: 'export', 
   basePath: "/tyn1t",
   assetPrefix: "/Pets-landing-page/",
 };

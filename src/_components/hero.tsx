@@ -8,15 +8,16 @@ export function Hero() {
     return (
         <section className="bg-[#2148ca]  text-white relative overflow-hidden">
             <div>
-            <Image
+            <img src="/foto-hero.webp" alt="Imagem de cachorro" width="500" height="300" />
+            {/* <Image
                 src={"/cat.png"}
                 alt='imagem de dogc eroo'
                 className='object-cover opacity-60 lg:hidden'
                 width={250}
-                height={200}
+                height={2}
                 priority
                 sizes=""
-            />
+            /> */}
             <div className="absolute inset-0 bg-black opacity-40 md:hidden"></div>
             </div>
             <div className="container mx-auto pt-16 pb-16 md:pb-0 px-4 relative" >
