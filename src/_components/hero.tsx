@@ -15,7 +15,7 @@ export function Hero() {
             <div>
             <Image
                 src={"/"}
-                alt='imagem de dogc eroo'
+                alt='imagem de dog'
                 className='object-cover opacity-60 lg:hidden'
                 fill
                 priority
