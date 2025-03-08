@@ -3,11 +3,12 @@ import CatHero from "./../../public/cat-hero.png"
 
 import Image from 'next/image'
 
-const img = {
-    src: "/cat-hero.png", name: "cat",
-    src: "//cat-hero.png", name: "cat",
-    src: "/bg-hero.png", name: "cat",
-}
+const img = [{
+    src1: "/cat-hero.png", name1: "cat",
+    src2: "//cat-hero.png", name2: "cat",
+    src3: "/bg-hero.png", name3: "cat",
+    }
+]
 export function Hero() {
     return (
         <section className="bg-[#2148ca]  text-white relative overflow-hidden">
