@@ -1,18 +1,14 @@
-import golden from "./../../public/golden.png"
-import royal from "./../../public/royal.png"
-import primier from "./../../public/primier.png"
-import whiskas from "./../../public/whiskas.png"
-import natural from "./../../public/natural.png"
 import Image from "next/image"
 import { FacebookLogo, InstagramLogo, YoutubeLogo } from "@phosphor-icons/react/dist/ssr"
 
 
 const brands = [
-    { name:"golden", logo: golden},
-    { name:"royal Canin",  logo: royal},
-    { name:"primier", logo: primier},
-    { name: "whiskas", logo: whiskas},
-    { name: "Golden natural", logo: natural},
+    { name:"golden", logo: "/golden.png"},
+    { name:"royal Canin",  logo: "/royal.png"},
+    { name:"primier", logo: "/primier.png"},
+    { name: "whiskas", logo: "/whiskas.png"},
+    { name: "Golden natural", logo: "/natural.png"},
+    { name: "whiskas", logo: "/whiskas.png"},
 ]
 export function Fooder ()  {
     return (
@@ -22,7 +18,7 @@ export function Fooder ()  {
             <div className=" border-b  border-white/20 pb-8">
                 <h4 className="text-3xl font-semibold mb-8 text-center">Marcas que trabalhamos</h4>
                 
-                <div className="grid grid-cols-2 lg:grid-cols-5 gap-8 mx-auto justify-center">
+                <div className="grid grid-cols-2 lg:grid-cols-6 gap-8 mx-auto justify-center">
 
                     {brands.map((item, index) => (
                         <div key={index} className="flex relative bg-white p-4 py-5 rounded-lg items-center justify-center">

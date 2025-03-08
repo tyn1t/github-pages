@@ -3,19 +3,23 @@ import CatHero from "./../../public/cat-hero.png"
 
 import Image from 'next/image'
 
-
+const img = {
+    src: "/cat-hero.png", name: "cat",
+    src: "//cat-hero.png", name: "cat",
+    src: "/bg-hero.png", name: "cat",
+}
 export function Hero() {
     return (
         <section className="bg-[#2148ca]  text-white relative overflow-hidden">
             <div>
-            {/* <Image
-                src={""}
+            <Image
+                src={"cat-hero"}
                 alt='imagem de dogc eroo'
                 className='object-cover opacity-60 lg:hidden'
                 fill
                 priority
                 sizes=""
-            /> */}
+            />
             <div className="absolute inset-0 bg-black opacity-40 md:hidden"></div>
             </div>
             <div className="container mx-auto pt-16 pb-16 md:pb-0 px-4 relative" >
@@ -60,7 +64,7 @@ export function Hero() {
                     
                     <div className="hidden md:block h-full relative">
                         <Image
-                            src={"/hero-dog.webp"}
+                            src={"/bg-hero.png"}
                             alt='imagem de dog'
                             className='object-contain'
                             fill
