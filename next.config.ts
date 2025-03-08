@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/pets-landing-page', // Nome do repositório
+  basePath: '/pets-landing-page',
+  assetPrefix: '/pets-landing-page/',
   images: {
     unoptimized: true, // Necessário para imagens no GitHub Pages
   },
