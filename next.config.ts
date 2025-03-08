@@ -4,13 +4,8 @@ const nextConfig = {
   assetPrefix: '/pets-landing-page',
   output: 'export',
   images: {
-    unoptimized: true, // Necessário para imagens no GitHub Pages
+    unoptimized: true, 
   },
 };
 
 export default nextConfig;
-  // images: {
-  //   unoptimized: true,
-  // },
-  // basePath: process.env.NODE_ENV == "production" ? "/Pets-landing-page" : "/Pets-landing-page" ,
-  // experimental: { optimizeCss: true }, 
