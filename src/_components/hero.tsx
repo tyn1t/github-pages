@@ -5,8 +5,8 @@ import Image from 'next/image'
 
 const img = [{
     src1: "/cat-hero.png", name1: "cat",
-    src2: "//cat-hero.png", name2: "cat",
-    src3: "/bg-hero.png", name3: "cat",
+    src2: "/cat-hero.png", name2: "cat",
+    src3: "/bg-hero.png", name: "cat",
     }
 ]
 export function Hero() {
@@ -14,8 +14,8 @@ export function Hero() {
         <section className="bg-[#2148ca]  text-white relative overflow-hidden">
             <div>
             <Image
-                src={"/"}
-                alt='imagem de dog'
+                src={"./cat-hero.png"}
+                alt='imagem de dogc eroo'
                 className='object-cover opacity-60 lg:hidden'
                 fill
                 priority
@@ -65,7 +65,7 @@ export function Hero() {
                     
                     <div className="hidden md:block h-full relative">
                         <Image
-                            src={"/"}
+                            src={"/bg-hero.png"}
                             alt='imagem de dog'
                             className='object-contain'
                             fill
