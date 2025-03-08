@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
   basePath: '/pets-landing-page',
-  assetPrefix: '/pets-landing-page/',
+  assetPrefix: '/pets-landing-page',
+  output: 'export',
   images: {
     unoptimized: true, // Necessário para imagens no GitHub Pages
   },
