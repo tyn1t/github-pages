@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '/Pets-landing-page',
+  basePath: '/pets-landing-page',
   images: {
     unoptimized: true, 
   },
