@@ -14,7 +14,7 @@ export function Hero() {
         <section className="bg-[#2148ca]  text-white relative overflow-hidden">
             <div>
             <Image
-                src={"cat-hero"}
+                src={"/"}
                 alt='imagem de dogc eroo'
                 className='object-cover opacity-60 lg:hidden'
                 fill
@@ -65,7 +65,7 @@ export function Hero() {
                     
                     <div className="hidden md:block h-full relative">
                         <Image
-                            src={"/bg-hero.png"}
+                            src={"/"}
                             alt='imagem de dog'
                             className='object-contain'
                             fill
