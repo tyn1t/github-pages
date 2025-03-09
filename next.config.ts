@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/pets-landing-page',
-  assetPrefix: '/pets-landing-page',
-  output: 'export',
-  images: {
-    unoptimized: true, 
-  },
+  // basePath: '/github-pages',
+  // assetPrefix: '/github-pages',
+  // output: 'export',
+  // images: {
+  //   unoptimized: true, 
+  // },
 };
 
 export default nextConfig;
