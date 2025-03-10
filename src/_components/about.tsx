@@ -22,7 +22,7 @@ export function About() {
                         <div className="absolute w-40 h-40 right-4 -bottom-8 border-4
                         overflow-hidden">
                             <Image 
-                                src={"/about-2.png"}
+                                src={"/"}
                                 alt="Foto do cat"
                                 fill
                                 quality={100}

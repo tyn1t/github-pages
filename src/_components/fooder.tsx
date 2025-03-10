@@ -23,7 +23,7 @@ export function Fooder ()  {
                     {brands.map((item, index) => (
                         <div key={index} className="flex relative bg-white p-4 py-5 rounded-lg items-center justify-center">
                                 <Image 
-                                    src={item.logo}
+                                    src={"/"}
                                     alt={item.name}
                                     width={100}
                                     height={50}
