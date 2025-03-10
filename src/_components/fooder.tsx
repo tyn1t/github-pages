@@ -24,7 +24,7 @@ export function Fooder ()  {
                         <div key={index} className="flex relative bg-white p-4 py-5 rounded-lg items-center justify-center">
                                 <Image 
                                     src={item.logo}
-                                    alt={`${item.name} logo`}
+                                    alt={item.name}
                                     width={100}
                                     height={50}
                                     quality={100}
