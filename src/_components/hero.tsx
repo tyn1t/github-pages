@@ -51,7 +51,7 @@ export function Hero() {
                                 <div className='flex mt-4'>
                                     <div className='w-32 hidden lg:block'>
                                         <Image 
-                                            src="/cat-hero.png"
+                                            src="./cat-hero.png"
                                             alt='image Cat'
                                             quality={100}
                                             className='object-fill'
