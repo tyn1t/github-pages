@@ -4,7 +4,7 @@ import { FacebookLogo, InstagramLogo, YoutubeLogo } from "@phosphor-icons/react/
 
 const brands = [
     { name:"golden", logo: "/golden.png"},
-    { name:"royal Canin",  logo:"/royal.png"},
+    { name:"royal Canin",  logo: "/royal.png"},
     { name:"primier", logo: "/primier.png"},
     { name: "whiskas", logo: "/whiskas.png"},
     { name: "Golden natural", logo: "/natural.png"},
