@@ -58,7 +58,7 @@ export function Hero() {
                     
                     <div className="hidden md:block h-full relative">
                         <Image
-                            src={"/github-pages/studio-shot.jpg"}
+                            src={"/github-pages/foto-hero.webp"}
                             alt='imagem de dog'
                             className='object-contain'
                             fill

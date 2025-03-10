@@ -10,7 +10,7 @@ export function About() {
                     <div className="relative">
                         <div className="bg-amber-300 relative w-full h-[400px] rounded-3xl overflow-hidden">
                             <Image
-                                src={"/about.png"}
+                                src={"/github-pages/about.png"}
                                 alt="Foto cachorro e gato"
                                 fill
                                 quality={100}
@@ -22,7 +22,7 @@ export function About() {
                         <div className="absolute w-40 h-40 right-4 -bottom-8 border-4
                         overflow-hidden">
                             <Image 
-                                src={"/about-2.png"}
+                                src={"/github-pages/about-2.png"}
                                 alt="Foto do cat"
                                 fill
                                 quality={100}
