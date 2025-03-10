@@ -1,6 +1,7 @@
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
 
 import Image from 'next/image'
+import { preconnect } from 'react-dom'
 
 const img = [{
     src1: "/cat-hero.png", name1: "cat",
@@ -13,8 +14,8 @@ export function Hero() {
         <section className="bg-[#2148ca]  text-white relative overflow-hidden">
             <div>
             <Image
-                src={"/"}
-                alt='imagem de dogc eroo'
+                src={"/bg-hero.png"}
+                alt='imagem de dog erro'
                 className='object-cover opacity-60 lg:hidden'
                 fill
                 priority
@@ -52,7 +53,7 @@ export function Hero() {
                                     <div className='w-32 hidden lg:block'>
                                         <Image 
                                             src="./cat-hero.png"
-                                            alt='image Cat'
+                                            alt='image do cat'
                                             quality={100}
                                             className='object-fill'
                                         />
