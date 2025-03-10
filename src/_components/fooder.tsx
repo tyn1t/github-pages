@@ -22,7 +22,6 @@ export function Fooder ()  {
 
                     {brands.map((item, index) => (
                         <div key={index} className="flex relative bg-white p-4 py-5 rounded-lg items-center justify-center">
-                                <div className="w-32 h-32 rounded-full">
                                 <Image 
                                     src={item.logo}
                                     alt={item.name}
@@ -31,7 +30,6 @@ export function Fooder ()  {
                                     quality={100}
                                     className="object-contain rounded-full "
                                 />
-                                </div>
 
                                 
                             </div>
