@@ -7,7 +7,8 @@ const brands = [
         { name: "royal Canin", logo: "/github-pages/royal.png" },
         { name: "primier", logo: "/github-pages/primier.png" },
         { name: "whiskas", logo: "/github-pages/whiskas.png" },
-        { name: "Golden natural", logo: "/github-pages/natural.png" },    
+        { name: "Golden natural", logo: "/github-pages/natural.png" },
+        { name: "whiskas", logo: "/github-pages/whiskas.png" },  
 ];
 export function Fooder ()  {
     return (
