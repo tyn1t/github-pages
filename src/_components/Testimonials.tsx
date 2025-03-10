@@ -19,19 +19,19 @@ const testimonials = [
         content: "Cuidar de um pet vai muito além de alimentá-lo e dar-lhe água. É essencial que você se dedique ao seu bem-estar, oferecendo momentos de lazer e carinho. Brinquedos, exercícios e alimentação saudável são fundamentais para a qualidade de vida do seu animal. Além disso, leve seu pet para consultas periódicas ao veterinário para garantir que ele esteja saudável. O afeto e o tempo de qualidade que você dedica ao seu pet criam.",
         author: "João Silva",
         role: "Veterinário",
-        img: "/"
+        img: "/github-pages/thispersondoesnotexist1.jpg"
     },
     {
         content: "A socialização é uma das etapas mais importantes no desenvolvimento de um pet. Quando filhote, o animal está mais aberto a novas experiências e estímulos, o que torna o processo de adaptação ao mundo muito mais fácil. Leve seu pet para passeios, apresente-o a novos ambientes, a diferentes sons e, principalmente, a outros animais e pessoas. Isso contribui para o seu comportamento equilibrado.",
         author: "Maria Oliveira",
         role: "Adestradora",
-        img:"/"
+        img:"/github-pages/thispersondoesnotexist1.jpg"
     },
     {
         content: "A saúde do seu pet depende de cuidados preventivos contínuos. Vacinas são fundamentais para proteger seu amigo contra doenças graves e até fatais. É essencial seguir o calendário de vacinação recomendado pelo veterinário e manter o controle das verminoses e outros cuidados preventivos. Além disso, a realização de check-ups regulares é uma forma de identificar possíveis problemas antes que eles se tornem sérios. Seu pet confia.",
         author: "Carlos Almeida",
         role: "Veterinário",
-        img:"/"
+        img:"/github-pages/thispersondoesnotexist1.jpg"
     }
 ];
 
@@ -70,9 +70,12 @@ export function Testimonials () {
                                         <article className="bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
                                             <div className="flex flex-col items-center text-center space-y-4">
                                                 <div className="relative w-24 h-24">
-                                                    <div className="bg-slate-400 p-12 rounded-full">
-
-                                                    </div>
+                                                    <Image
+                                                        src={item.img}
+                                                        alt={item.author}
+                                                        fill
+                                                        className="object-cover"
+                                                    />
                                                 </div>
                                                 <p className="text-gray-500">{item.content}</p>
 

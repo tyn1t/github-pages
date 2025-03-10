@@ -7,7 +7,7 @@ export function Hero() {
         <section className="bg-[#2148ca]  text-white relative overflow-hidden">
             <div>
             <Image
-                src={"/bg-hero.png"}
+                src={"/github-pages/bg-hero.png"}
                 alt='imagem de dogc eroo'
                 className='object-cover opacity-60 lg:hidden'
                 fill
@@ -45,7 +45,7 @@ export function Hero() {
                                 <div className='flex mt-4'>
                                     <div className='w-32 hidden lg:block'>
                                         <Image 
-                                            src="/cat-hero.png"
+                                            src="/github-pages/cat-hero.png"
                                             alt='image do cat'
                                             quality={100}
                                             className='object-fill'
@@ -58,7 +58,7 @@ export function Hero() {
                     
                     <div className="hidden md:block h-full relative">
                         <Image
-                            src={"/studio-shot.jpg"}
+                            src={"/github-pages/studio-shot.jpg"}
                             alt='imagem de dog'
                             className='object-contain'
                             fill
