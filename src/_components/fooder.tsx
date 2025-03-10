@@ -9,6 +9,7 @@ const brands = [
     { name: "whiskas", logo: "/whiskas.png"},
     { name: "Golden natural", logo: "/natural.png"},
     { name: "whiskas", logo: "/whiskas.png"},
+
 ]
 export function Fooder ()  {
     return (
