@@ -29,7 +29,7 @@ export function Fooder ()  {
                                     width={100}
                                     height={50}
                                     quality={100}
-                                    className="object-contain rounded-3xl "
+                                    className="object-contain rounded-full "
                                 />
                                 </div>
 
