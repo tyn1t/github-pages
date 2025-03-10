@@ -4,8 +4,8 @@ const nextConfig = {
   assetPrefix: '/github-pages',
   output: 'export',
   images: {
+    domains: ["tyn1t.github.io"],
     unoptimized: true,
-    domains: ["tyn1t.github.io"] 
   },
 };
 
