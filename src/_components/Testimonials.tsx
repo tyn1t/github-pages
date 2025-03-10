@@ -10,7 +10,7 @@ import {
     Clock
 } from "lucide-react";
 
-import Tutor1  from "./../../public/tutor1.png";
+
 import Image from "next/image";
 
 

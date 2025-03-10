@@ -14,7 +14,7 @@ export function Hero() {
         <section className="bg-[#2148ca]  text-white relative overflow-hidden">
             <div>
             <Image
-                src={`${process.env.NODE_ENV}/public/bg-hero.png`}
+                src={"/bg-hero.png"}
                 alt='imagem de dogc eroo'
                 className='object-cover opacity-60 lg:hidden'
                 fill
