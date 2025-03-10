@@ -3,14 +3,12 @@ import { FacebookLogo, InstagramLogo, YoutubeLogo } from "@phosphor-icons/react/
 
 
 const brands = [
-    { name:"golden", logo: "/golden.png"},
-    { name:"royal Canin",  logo: "/royal.png"},
-    { name:"primier", logo: "/primier.png"},
-    { name: "whiskas", logo: "/whiskas.png"},
-    { name: "Golden natural", logo: "/natural.png"},
-    { name: "whiskas", logo: "/whiskas.png"},
-
-]
+        { name: "golden", logo: "/github-pages/golden.png" },
+        { name: "royal Canin", logo: "/github-pages/royal.png" },
+        { name: "primier", logo: "/github-pages/primier.png" },
+        { name: "whiskas", logo: "/github-pages/whiskas.png" },
+        { name: "Golden natural", logo: "/github-pages/natural.png" },    
+];
 export function Fooder ()  {
     return (
     <section className="flex  bg-[#2148ca] py-16 text-white">
