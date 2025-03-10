@@ -1,5 +1,4 @@
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
-import CatHero from "./../../public/cat-hero.png"
 
 import Image from 'next/image'
 
@@ -52,7 +51,7 @@ export function Hero() {
                                 <div className='flex mt-4'>
                                     <div className='w-32 hidden lg:block'>
                                         <Image 
-                                            src={CatHero}
+                                            src="/cat-hero.png"
                                             alt='image Cat'
                                             quality={100}
                                             className='object-fill'
