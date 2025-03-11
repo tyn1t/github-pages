@@ -13,7 +13,7 @@ export default function Aviso() {
         {!fecha && (
             <div className="fixed top-52 left-0 w-full z-50 ">
 
-                <section className="flex mx-auto z-50 shadow-xl shadow-red-500 border p-4 bg-white rounded-lg w-96">
+                <section className="flex mx-auto z-50 shadow-xl shadow-red-500 border p-4 bg-white rounded-lg w-96 md:w-64">
                     <div className="relative left-80">
                         <button 
                             onClick={fechatela} 

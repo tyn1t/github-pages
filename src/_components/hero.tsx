@@ -7,8 +7,8 @@ export function Hero() {
         <section className="bg-[#2148ca]  text-white relative overflow-hidden">
             <div>
             <Image
-                src={"/github-pages/bg-hero.png"}
-                alt='imagem de dogc eroo'
+                src={"/github-pages/cat-hero.png"}
+                alt='imagem de dog'
                 className='object-cover opacity-60 lg:hidden'
                 fill
                 priority
