@@ -74,7 +74,7 @@ export function Testimonials () {
                                                         src={item.img}
                                                         alt={item.author}
                                                         fill
-                                                        className="object-cover"
+                                                        className="object-cover rounded-full"
                                                     />
                                                 </div>
                                                 <p className="text-gray-500">{item.content}</p>
