@@ -3,6 +3,8 @@ import {  About } from "@/_components/about";
 import { Services } from "@/_components/services";
 import { Testimonials } from "@/_components/Testimonials";
 import { Fooder } from "@/_components/fooder";
+import Avisor from "@/_components/avisor";
+
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -17,6 +19,7 @@ export default function Home() {
   return (
     <main>
         <Hero/>
+        <Avisor/>
         <About/>
         <Services/>
         <Testimonials/>
