@@ -3,9 +3,10 @@ import {  About } from "@/_components/about";
 import { Services } from "@/_components/services";
 import { Testimonials } from "@/_components/Testimonials";
 import { Fooder } from "@/_components/fooder";
-import Avisor from "@/_components/avisor";
+// import Avisor from "@/_components/avisor";
 
 import type { Metadata } from 'next'
+import Avisor from "@/components/avisor";
 
 export const metadata: Metadata = {
   title: "Pets",
