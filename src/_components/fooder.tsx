@@ -42,7 +42,7 @@ export function Fooder ()  {
                         <h3 className="text-2xl font-semibold md-2">Pet Shop Dev</h3>
                         <p>Cuidando do seu melhor amigo co amor e dedicação.</p>
 
-                        <a href="#" className="bg-green-500 relative px-4 py-2 top-4 rounded-md">
+                        <a href="tel:92992192528" className="bg-green-500 relative px-4 py-2 top-4 rounded-md">
                             Contato via whatsApp
                         </a>
                     </div>
