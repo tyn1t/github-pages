@@ -8,7 +8,7 @@ import Avisor from "@/_components/avisor";
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "Produtor Pet",
+  title: "Pets",
   description: "Encontre os melhores produtos e serviços para o seu pet com qualidade e confiança.",
   icons: {
     icon: "/paw_icon.png",
