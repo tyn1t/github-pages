@@ -14,10 +14,10 @@ export default function Aviso() {
             <div className="fixed top-52 left-0 w-full z-50 ">
 
                 <section className="flex mx-auto z-50 shadow-xl  shadow-red-500 border p-4 bg-white rounded-lg w-96">
-                    <div className="relative left-80">
+                    <div className="relative left-80  hover:text-blue-500 hover:bg-gray-700">
                         <button 
                             onClick={fechatela} 
-                            className="relative -top-2 text-red-500 font-bold hover:text-blue-500 hover:bg-gray-700"
+                            className="relative -top-2 text-red-500 font-bold"
                         >
                             ✖
                         </button>
