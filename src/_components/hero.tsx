@@ -29,7 +29,7 @@ export function Hero() {
                         </p>
                         <div>
                             <a
-                                href="#"
+                                href="tel:92992192528"
                                 className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center 
                                 justify-center w-fit gap-2"
                             >
