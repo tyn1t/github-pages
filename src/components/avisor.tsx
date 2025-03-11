@@ -26,8 +26,8 @@ export default function Aviso() {
                     <div className="text-center">
                         <h1 className="text-red-500 text-2xl font-bold">⚠️ Atenção</h1>
                         <p className="mt-2 text-gray-700">
-                            Este projeto é um exemplo da minha habilidade para criar uma landing page.
-                        <span className="font-bold">Lembre-se: Nada nesta página é real.</span>
+                            Este projeto é um exemplo da minha habilidade em criar landing pages.
+                        <span className="font-bold">Atenção: O conteúdo desta página é fictício e apenas para demonstração.</span>
                         </p>
                         <p className="mt-2 text-gray-600">
                             Demonstrando nossas habilidades em desenvolvimento web
