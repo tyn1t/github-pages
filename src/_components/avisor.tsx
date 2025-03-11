@@ -4,12 +4,12 @@ function Aviso() {
     const [fecha, setFecha] = useState(false);
 
     const fechatela = () => {
-        setFecha(true); 
+        setFecha(true); // Fecha o aviso quando o botão for clicado
     };
 
     return (
         <>
-        {fecha ? ( 
+        {!fecha && (  // Exibe o aviso apenas quando `fecha` for false
             <section className="relative z-50 shadow-xl shadow-red-500 border p-4 bg-white rounded-lg w-96">
             <button 
                 onClick={fechatela} 
@@ -28,8 +28,8 @@ function Aviso() {
                 </p>
                 <p className="mt-4 font-semibold">Se estiver interessado em nossos serviços, entre em contato!</p>
             </div>
-            </section> 
-        ) : (<p></p>)};
+            </section>
+        )}
         </>
     );
     }

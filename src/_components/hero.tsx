@@ -1,10 +1,12 @@
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
 
 import Image from 'next/image'
+import Avisor from './avisor'
 
 export function Hero() {
     return (
         <section className="bg-[#2148ca]  text-white relative overflow-hidden">
+            <Avisor/>
             <div>
             <Image
                 src={"/github-pages/bg-hero.png"}
