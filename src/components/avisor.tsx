@@ -11,9 +11,6 @@ export default function Aviso() {
     return (
         <>
         {!fecha && (
-            <div className="w-full h-full borde bg-black ">
-
-            
             <div className="fixed top-52 left-0 w-full z-50 ">
 
                 <section className="flex mx-auto z-50 shadow-xl shadow-red-500 border p-4 bg-white rounded-lg w-96">
@@ -39,7 +36,6 @@ export default function Aviso() {
                     </div>
                 </section>
             </div>
-        </div>
         )}
         </>
     );
