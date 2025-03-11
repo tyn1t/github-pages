@@ -11,7 +11,7 @@ export default function Aviso() {
     return (
         <>
         {!fecha && (
-            <div className="w-full h-full bg-black">
+            <div className="w-full h-full borde bg-black ">
 
             
             <div className="fixed top-52 left-0 w-full z-50 ">
