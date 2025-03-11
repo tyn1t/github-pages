@@ -17,7 +17,7 @@ export default function Aviso() {
                     <div className="relative left-80">
                         <button 
                             onClick={fechatela} 
-                            className="relative -top-2 text-red-500 font-bold hover:text-blue-500"
+                            className="relative -top-2 text-red-500 font-bold hover:text-blue-500 hover:bg-gray-700"
                         >
                             ✖
                         </button>
